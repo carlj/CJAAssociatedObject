@@ -1,15 +1,17 @@
 #CJAAssociatedObject
 A wrapper about the `objc_getAssociatedObject` and `objc_setAssociatedObject` from the  [`<objc/runtime.h>`](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html)
 
+[![Build Status](https://travis-ci.org/carlj/CJAAssociatedObject.png?branch=master)](https://travis-ci.org/carlj/CJAAssociatedObject)
+
 ##But why... ?
 There is one important reason for this library:  
 **You can add custom properties to your own Categories**
 
 ##Installation
-Just drag & drop the [`NSObject+CJAAssociatedObject.h`](UIViewController+ExampleCategory/UIViewController+ExampleCategory.h) and [`NSObject+CJAAssociatedObject.m`](UIViewController+ExampleCategory/UIViewController+ExampleCategory.m) files to your project.
+Just drag & drop the [`NSObject+CJAAssociatedObject.h`](/CJAAssociatedObject/NSObject+CJAAssociatedObject.h) and [`NSObject+CJAAssociatedObject.m`](/CJAAssociatedObject/NSObject+CJAAssociatedObject.m) files to your project.
 
 ##Usage
-First of all take a look at the Example Project, especially at the [`UIViewController+ExampleCategory`](Example/Classes/UIViewController+ExampleCategory.h) Category
+First of all take a look at the Example Project, especially at the [`UIViewController+ExampleCategory`](/Example/Classes/UIViewController+ExampleCategory.h) Category
 
 ``` objc
 static void *kExampleStringKey;
