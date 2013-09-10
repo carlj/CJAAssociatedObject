@@ -1,5 +1,5 @@
 #CJAAssociatedObject
-A wrapper about the `objc_getAssociatedObject` and `objc_setAssociatedObject` from the  [`<objc/runtime.h>`](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html)
+A wrapper around the `objc_getAssociatedObject` and `objc_setAssociatedObject` from the  [`<objc/runtime.h>`](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html)
 
 [![Build Status](https://travis-ci.org/carlj/CJAAssociatedObject.png?branch=master)](https://travis-ci.org/carlj/CJAAssociatedObject)
 
