@@ -13,6 +13,7 @@
 		FA16431417DDAD0200DAC704 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA16431317DDAD0200DAC704 /* SenTestingKit.framework */; };
 		FA16431517DDAD0200DAC704 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1642F517DDAD0200DAC704 /* UIKit.framework */; };
 		FA16431617DDAD0200DAC704 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1642F717DDAD0200DAC704 /* Foundation.framework */; };
+		FA598B6C17DF0B0000D512D0 /* UIViewController+ExampleCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FA598B6B17DF0B0000D512D0 /* UIViewController+ExampleCategory.m */; };
 		FA80C4A717DDADAA0065F078 /* CJAAssociatedObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA80C4A617DDADAA0065F078 /* CJAAssociatedObjectTests.m */; };
 		FA80C4B417DDADC00065F078 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA80C4AB17DDADC00065F078 /* AppDelegate.m */; };
 		FA80C4B617DDADC00065F078 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA80C4AF17DDADC00065F078 /* main.m */; };
@@ -40,6 +41,8 @@
 		FA1642F917DDAD0200DAC704 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FA16431217DDAD0200DAC704 /* CJAAssociatedObjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJAAssociatedObjectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA16431317DDAD0200DAC704 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FA598B6A17DF0B0000D512D0 /* UIViewController+ExampleCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ExampleCategory.h"; sourceTree = "<group>"; };
+		FA598B6B17DF0B0000D512D0 /* UIViewController+ExampleCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ExampleCategory.m"; sourceTree = "<group>"; };
 		FA80C4A517DDADAA0065F078 /* CJAAssociatedObjectTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJAAssociatedObjectTests.h; path = Tests/CJAAssociatedObjectTests.h; sourceTree = SOURCE_ROOT; };
 		FA80C4A617DDADAA0065F078 /* CJAAssociatedObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJAAssociatedObjectTests.m; path = Tests/CJAAssociatedObjectTests.m; sourceTree = SOURCE_ROOT; };
 		FA80C4A817DDADB10065F078 /* CJAAssociatedObjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CJAAssociatedObjectTests-Info.plist"; path = "Tests/Other Sources/CJAAssociatedObjectTests-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -156,6 +159,8 @@
 				FA80C4AB17DDADC00065F078 /* AppDelegate.m */,
 				FA80C4BA17DDADD00065F078 /* ExampleViewController.h */,
 				FA80C4BB17DDADD00065F078 /* ExampleViewController.m */,
+				FA598B6A17DF0B0000D512D0 /* UIViewController+ExampleCategory.h */,
+				FA598B6B17DF0B0000D512D0 /* UIViewController+ExampleCategory.m */,
 			);
 			name = Classes;
 			path = Example/Classes;
@@ -294,6 +299,7 @@
 				FA80C4B617DDADC00065F078 /* main.m in Sources */,
 				FA80C4BC17DDADD00065F078 /* ExampleViewController.m in Sources */,
 				FA80C4BF17DDADF30065F078 /* NSObject+CJAAssociatedObject.m in Sources */,
+				FA598B6C17DF0B0000D512D0 /* UIViewController+ExampleCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
