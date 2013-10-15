@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EB4CED35-A5A0-4781-85F1-8CD30939D203</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CJAAssociatedObject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FD0B0C87-373D-4B96-B6B5-14E46CBF2E47</key>
+		<string>https://github.com/carlj/CJAAssociatedObject.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CJAAssociatedObject.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FD0B0C87-373D-4B96-B6B5-14E46CBF2E47</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/carlj/CJAAssociatedObject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FD0B0C87-373D-4B96-B6B5-14E46CBF2E47</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FD0B0C87-373D-4B96-B6B5-14E46CBF2E47</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CJAAssociatedObject</string>
+		</dict>
+	</array>
+</dict>
+</plist>
