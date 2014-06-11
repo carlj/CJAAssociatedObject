@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
  s.name         = "CJAAssociatedObject"
  s.version      = "1.0.0"
  s.platform     = :ios, "6.0"
- s.summary      = ""
+ s.summary      = "A wrapper around the objc_getAssociatedObject and objc_setAssociatedObject functions."
  s.homepage     = "https://github.com/carlj/CJAAssociatedObject"
  s.author       = { "Carl Jahn" => "jahncarl@gmail.com" }
  s.source       = { :git  => "https://github.com/carlj/CJAAssociatedObject.git", :tag => s.version.to_s }
